@@ -1,0 +1,17 @@
+.card {
+  width: 1fr;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card__image {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.card:hover {
+  padding: 0 5px 5px 0;
+}
