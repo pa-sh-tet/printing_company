@@ -8,15 +8,12 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(#fff, #BBDEFB);
-
 }
 
 .about-us__container {
-  /* background-color: #BBDEFB; */
-  height: 100px;
+  height: 130px;
   width: 1000px;
-  padding: 50px 140px;
-  /* height: 100px; */
+  padding: 120px 140px 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

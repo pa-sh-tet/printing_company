@@ -3,7 +3,7 @@ import logo from '../../../images/logo_1.png';
 
 export default function AboutUs() {
   return (
-    <section className='about-us'>
+    <section className='about-us' id='about-us'>
       {/* <div className='about-us__gradient'></div> */}
       <div className='about-us__container'>
         <div className='about-us__img'>

@@ -10,28 +10,34 @@ import photo6 from '../../../images/grid6.jpg';
 
 const workCards = [
   {
-    // name: 'Сахар звезд',
+    name: 'Название',
     image: photo1,
+    text: 'какое то описание изделия',
   },
   {
-    // name: '«Счастье - это путь»',
+    name: 'Название',
     image: photo2,
+    text: 'какое то длинооооооооооооооооооооооое описание изделия',
   },
   {
-    // name: 'Сабантуй',
+    name: 'Название',
     image: photo3,
+    text: 'какое то описание изделия',
   },
   {
-    // name: 'Digital',
+    name: 'Название',
     image: photo4,
+    text: 'какое то описание изделия',
   },
   {
-    // name: 'Татарский танец',
+    name: 'Название',
     image: photo5,
+    text: 'какое то описание изделия',
   },
   {
-    // name: 'Светодиоды',
+    name: 'Название',
     image: photo6,
+    text: 'какое то описание изделия',
   },
 ];
 
@@ -42,7 +48,7 @@ export default function Portfolio () {
         <h3 className='portfolio__title'>Наши работы</h3>
         <div className='portfolio__grid'>
           {workCards.map((work, index) => (
-            <Card key={index} image={work.image} />
+            <Card key={index} image={work.image} name={work.name} text={work.text} />
           ))}
         </div>
       </div>
