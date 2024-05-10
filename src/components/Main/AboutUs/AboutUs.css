@@ -1,14 +1,22 @@
 .about-us {
   width: 100%;
-  height: 320px;
+  height: auto;
   background-color: #BBDEFB;
+  /* background-color: #134074; */
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#fff, #BBDEFB);
+
 }
 
 .about-us__container {
+  /* background-color: #BBDEFB; */
+  height: 100px;
   width: 1000px;
-  padding: 100px 140px;
+  padding: 50px 140px;
+  /* height: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,4 +47,10 @@
 .about-us__description {
   font-size: 20px;
   font-weight: 400;
+}
+
+.about-us__gradient {
+  height: 15px;
+  width: 100%;
+  background: linear-gradient(#fff, #BBDEFB);
 }

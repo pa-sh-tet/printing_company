@@ -1,17 +1,15 @@
 .preview {
   width: 100%;
-  height: 600px;
-  background-color:#1565C0;
+  height: 500px;
   display: flex;
   justify-content: center;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .preview__container {
   padding: 100px 0 0;
   width: 1280px;
   height: 100%;
-  /* outline: 1px red solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,13 +27,28 @@
   z-index: 0;
 }
 
+/* .preview__box {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+} */
+
 .preview__image {
-  height: 50%;
+  /* position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  object-position: center; */
+  height: 60%;
   width: 50%;
   object-position: center;
   object-fit: cover;
   z-index: 1;
-  margin: 30px 0;
+  margin: 15px 0;
 }
 
 .preview__title {

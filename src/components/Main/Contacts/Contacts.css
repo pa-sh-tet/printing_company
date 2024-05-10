@@ -1,115 +1,37 @@
 .contacts {
+  /* outline: 1px red solid; */
   width: 100%;
-  height: 650px;
-  background-image: url(../../../images/IMAGE.svg);
-  margin: 86px 0 172px;
+  height: auto;
+  /* background-color: black; */
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .contacts__container {
-  width: 350px;
-  height: 450px;
-  background-color: #fbf6f0c4;
-  padding: 34px 100px;
-  border-radius: 15px;
-  border: 3px solid rgba(0, 0, 0, 0.2);
-}
-
-.contacts__title {
-  position: relative;
-  font-size: 35px;
-  margin: 0;
-  left: -50px;
-}
-
-.contacts__subtitle {
-  font-size: 15px;
-  margin: 14px 0 0;
-}
-
-.contacts__subtitle-number {
-  font-size: 20px;
-  margin: 10px 0 28px;
-  font-weight: 500;
-}
-
-.contacts__form {
+  padding: 100px 140px 200px;
+  width: 1000px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
-.contacts__input {
-  padding: 0 7px;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #976C39;
-  border-radius: 5px;
-  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
-  width: calc(100% - 14px);
-  height: 25px;
+.contacts__title { 
+  font-size: 48px;
+}
+
+.contacts__description {
+  text-align: center;
+  width: 500px;
   margin: 15px 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
-.input-text {
-  height: 80px;
-  padding-top: 10px;
-}
-
-.contacts__button {
-  width: 160px;
-  height: 45px;
-  background-color: #270515;
-  color: #FFFFFF;
+.contacts__item {
+  font-size: 18px;
+  font-weight: 500;
+  background-color:#00b4d853;
+  /* color: #fff; */
+  padding: 10px;
   border-radius: 5px;
-  margin: 15px auto;
-}
-
-@media screen and (max-width: 800px) {
-  .contacts__container {
-    width: 250px;
-    padding: 34px 50px;
-  }
-
-  .contacts__title {
-    left: -25px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .contacts {
-    margin-bottom: 80px;
-  }
-
-  .contacts__container {
-    width: 250px;
-    height: 400px;
-    padding: 34px 30px;
-  }
-
-  .contacts__title {
-    left: 0;
-    font-size: 25px;
-  }
-
-  .contacts__subtitle {
-    font-size: 12px;
-  }
-
-  .contacts__subtitle-number {
-    font-size: 15px;
-  }
-
-  .contacts__input {
-    font-size: 12px;
-  }
-
-  .contacts__button {
-    width: 120px;
-    height: 30px;
-    font-size: 13px;
-  }
 }
