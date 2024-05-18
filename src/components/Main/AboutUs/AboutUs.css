@@ -11,43 +11,138 @@
 }
 
 .about-us__container {
-  height: 130px;
   width: 1000px;
   padding: 120px 140px 50px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.about-us__main {
+  height: auto;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+/* .about-us__img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: right;
+} */
+
+.about-us__major {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-us__img {
-  width: 50%;
-  display: flex;
-  justify-content: right;
+  background-image: url(../../../images/logo_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  width: 250px;
+  height: 250px;
 }
 
-.about-us__logo {
-  margin-right: 20px;
+.about-us__name {
+  /* color:#000000; */
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .about-us__text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
 }
 
 .about-us__title {
   font-size: 48px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .about-us__description {
   font-size: 20px;
   font-weight: 400;
+  line-height: 28px;
 }
 
 .about-us__gradient {
   height: 15px;
   width: 100%;
   background: linear-gradient(#fff, #BBDEFB);
+}
+
+.about-us__cards {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about-us__card{
+  width: 390px;
+  height: auto;
+  background-color: #f5faffc1;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.about-us__card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us__card-description{ 
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.about-us__fila {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 25px;
+  margin: 150px 0;
+  /* width: calc(100%+80px); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.about-us__fila-description {
+  font-size: 20px;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.about-us__flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-us__foto {
+  height: 180px;
+  width: 180px;
+  background-image: none;
+  /* background-image: url(../../../images/photo_1_2024-05-18_23-50-53.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  border-radius: 10px;
 }
