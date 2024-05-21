@@ -1,13 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import foto1 from '../../../images/photo_1.jpg';
-import foto2 from '../../../images/photo_2.jpg';
-import foto3 from '../../../images/photo_3.jpg';
-import foto4 from '../../../images/photo_4.jpg';
-import foto5 from '../../../images/photo_5.jpg';
-
-// function imgStyle (imgUrl) {
-//   backgroundImage: 'url(' + imgUrl + ')',
-// };
 
 export default function AboutUs() {
   return (
@@ -15,12 +6,10 @@ export default function AboutUs() {
       <div className='about-us__container'>
         <div className='about-us__main'>
           <div className='about-us__major'>
+            <svg className='about-us__svg' viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_234_854)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M44 0H0V150C0 177.614 22.3858 200 50 200H94V50C94 22.3858 71.6142 0 44 0ZM156 0C128.386 0 106 22.3858 106 50V200H150C177.614 200 200 177.614 200 150V0H156Z" fill="url(#paint0_linear_234_854)"/> </g> <defs> <linearGradient id="paint0_linear_234_854" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse"> <stop stop-color="#DF99F7"/> <stop offset="1" stop-color="#FFDBB0"/> </linearGradient> <clipPath id="clip0_234_854"> <rect width="200" height="200" fill="white"/> </clipPath> </defs> </svg>
             <div className='about-us__img'></div>
             <h3 className='about-us__name'>BAMBL</h3>
           </div>
-          {/* <div className='about-us__img'>
-            <img src={logo} alt=""className='about-us__logo' />
-          </div> */}
           <div className="about-us__text">
             <h3 className='about-us__title'>О компании</h3>
             <p className='about-us__description'>
@@ -56,22 +45,6 @@ export default function AboutUs() {
               навредят природе после утилизации. Развивая наше производство, мы также создаем 
               новые рабочие места и способствуем процветанию региона.
             </p>
-          </div>
-        </div>
-        <div className='about-us__fila'>
-          <p className='about-us__fila-description'>
-            Наличие собственного производства филамента является 
-            большим конкурентным преимуществом нашей компании. Мы 
-            можем предложить заказчикам оригинальные высококачественные 
-            материалы для 3D-печати с улучшенными физико-механическими 
-            свойствами по доступной цене.
-          </p>
-          <div className='about-us__flex'>
-            <div className="about-us__foto" style={{ backgroundImage: `url(${foto1})` }}></div>
-            <div className="about-us__foto" style={{ backgroundImage: `url(${foto2})` }}></div>
-            <div className="about-us__foto" style={{ backgroundImage: `url(${foto3})` }}></div>
-            <div className="about-us__foto" style={{ backgroundImage: `url(${foto4})` }}></div>
-            <div className="about-us__foto" style={{ backgroundImage: `url(${foto5})` }}></div>
           </div>
         </div>
       </div>

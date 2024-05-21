@@ -36,6 +36,7 @@ export default function NavTab() {
   return (
     <div className='nav-tab'>
       <a className={currentSection === 'about-us' ? 'nav-tab__link nav-tab__link_active link' : 'nav-tab__link link'} href="#about-us">О нас</a>
+      <a className={currentSection === 'materials' ? 'nav-tab__link nav-tab__link_active link' : 'nav-tab__link link'} href="#materials">Материалы</a>
       <a className={currentSection === 'benefit' ? 'nav-tab__link nav-tab__link_active link' : 'nav-tab__link link'} href="#benefit">Преимущества</a>
       <a className={currentSection === 'portfolio' ? 'nav-tab__link nav-tab__link_active link' : 'nav-tab__link link'} href="#portfolio">Портфолио</a>
       <a className={currentSection === 'contacts' ? 'nav-tab__link nav-tab__link_active link' : 'nav-tab__link link'} href="#contacts">Контакты</a>
